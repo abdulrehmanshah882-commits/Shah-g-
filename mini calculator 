@@ -1,0 +1,17 @@
+n = int(input ("Enter First number :")) 
+m = int(input ("Enter second number :"))
+o = input ("Enter operation :")
+if o == "+": 
+    print("Answer is =" ,n+m) 
+elif o=="-":  
+      print("Answer is =" ,n-m)
+elif o=="*": 
+    print("Answer is =" ,n*m)
+elif o=="/":  
+      if n or m == 0 :
+          print("zero can not be divide")
+      else :  
+          print("Answer is =" ,n/m)
+elif o=="%":  
+      print("Answer is =" ,n%m) 
+else : print ("envild choice")
