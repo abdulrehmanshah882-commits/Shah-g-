@@ -8,7 +8,7 @@ elif o=="-":
 elif o=="*": 
     print("Answer is =" ,n*m)
 elif o=="/":  
-      if n or m == 0 :
+      if n and m == 0 :
           print("zero can not be divide")
       else :  
           print("Answer is =" ,n/m)
