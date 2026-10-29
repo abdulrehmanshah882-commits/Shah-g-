@@ -1,0 +1,11 @@
+class ToyCar:
+    def __init__(self,color,size,wheels):
+        self.color = color
+        self.size = size
+        self.wheels = wheels
+    def describe(self):
+        return f"This toy car is {self.color} size {self.size} and has {self.wheels} wheels"   
+car1 = ToyCar("red","small",4) 
+car2 = ToyCar("Blue","big", 8)
+print(car1.describe())   
+print(car2.describe())    
